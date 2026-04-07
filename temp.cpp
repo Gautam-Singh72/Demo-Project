@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stack>
 using namespace std;
+//T.C-O(N) and S.C-O(1) 
 int countPairs(vector<int>& arr) {
     vector<int> freq(60, 0);
     int count = 0;
